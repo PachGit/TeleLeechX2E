@@ -44,8 +44,8 @@ try:
 except:
     pass
 
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-LOG_FILE_NAME = f"{UPDATES_CHANNEL}Logs.txt"
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "<a href='https://t.me/vava_tg'><b>ꪜꪖꪜꪖ</b></a>")
+LOG_FILE_NAME = "Logs.txt"
 
 if os.path.exists(LOG_FILE_NAME):
     with open(LOG_FILE_NAME, "r+") as f_d:
