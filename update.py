@@ -46,7 +46,7 @@ if environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
 ## Update Packages ----
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', "https://github.com/PachGit/TeleLeechX2E")
-UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', "master")
+UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', "h-code")
 try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
